@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-color: #ffe5ec;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+
+}
+
+nav{
+    font-family: "Roboto", sans-serif;;
+}
+
+nav ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #191414;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav ul li{
+    padding: 0 20px;
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+
+nav ul li i{
+    padding: 0 4px;
+    font-size: x-large;
+}
+
+.logo img{
+    width: 63px;
+    padding: 0 8px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+.cont{
+    min-height: 65vh;
+    background-color: #472d30;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 50px auto;
+    padding: 34px 20px;
+    border-radius: 13px;
+    background-image: url(banner2.jfif);
+    object-fit: fill;
+}
+
+.bottom{
+    position: sticky;
+    height: 130px;
+    bottom: 0px;
+    background-color: #191414;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 22px;
+}
+ .icons i{
+    padding: 0 15px;
+ }
+
+#myProgressBar{
+    width: 80vw;
+}
+
+.songItem{
+        height: 50px;
+        display: flex;
+        width: 450px;
+        border-radius: 30px;
+        margin: 12px 0px;
+        padding: 0 10px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0,0,0,.5);
+        color: #fff;        
+}
+
+.songItem img{
+    height: 40px;
+    object-fit: cover;
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 50%;
+}
+
+.timeStamp{
+    padding: 0 23px;
+}
+.timeStamp i{
+    padding: 0 5px;
+    cursor: pointer;
+}
